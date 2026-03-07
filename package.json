@@ -1,0 +1,19 @@
+{
+  "name": "hercare-science-fair-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "HERCARE – a modern, responsive science fair website demonstrating a social initiative that supports women facing financial hardship in Ethiopia.",
+  "scripts": {
+    "start": "echo \"Open index.html in your browser to view the site.\""
+  },
+  "keywords": [
+    "hercare",
+    "women",
+    "ethiopia",
+    "science-fair",
+    "static-site"
+  ],
+  "author": "",
+  "license": "MIT"
+}
+
