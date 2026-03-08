@@ -225,10 +225,9 @@ function openBankModal(bankName) {
   let accountNumber = "";
   switch (bankName) {
     case "Commercial Bank of Ethiopia (CBE)":
-      accountNumber = "1000777777777";
-      break;
+      accountNumber = "1000596373945";
     case "Awash Bank":
-      accountNumber = "0289 3456 793 2";
+      accountNumber = "013471586924000";
       break;
     case "Bank of Abyssinia":
       accountNumber = "0128945 9999";
@@ -242,7 +241,7 @@ function openBankModal(bankName) {
     case "Telebirr":
       accountNumber = "";
       telebirrNote.textContent =
-        "For Telebirr, please open your Telebirr app and search for 'Women Support Initiative' or use the reference details provided by the program coordinators.";
+        "0945939481";
       break;
     default:
       accountNumber = "";
@@ -279,4 +278,5 @@ function closeBankModal() {
     }
   });
 });
+
 
