@@ -916,6 +916,13 @@ p {
 
 @media (max-width: 520px) {
   .nav-right {
+        gap: 0.6rem;
+  }
+
+  /* Hide nav links and CTA on very small screens,
+     but keep the language switcher visible */
+  .nav-right .nav-link,
+  .nav-right .nav-cta {
     display: none;
   }
 
@@ -935,4 +942,5 @@ p {
     grid-template-columns: minmax(0, 1fr);
   }
 }
+
 
