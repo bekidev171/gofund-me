@@ -151,6 +151,49 @@ p {
   gap: 1.5rem;
 }
 
+.language-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.15rem 0.4rem;
+  border-radius: 999px;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.lang-toggle {
+  border: none;
+  background: transparent;
+  padding: 0.15rem 0.55rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  border-radius: 999px;
+  transition: background-color var(--transition-fast),
+    color var(--transition-fast), transform var(--transition-fast),
+    box-shadow var(--transition-fast);
+}
+
+.lang-toggle:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+}
+
+.lang-toggle.active {
+  background: linear-gradient(
+    135deg,
+    var(--color-pink),
+    var(--color-gold-soft)
+  );
+  color: var(--color-white);
+}
+
+.lang-separator {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+}
+
 .nav-link {
   position: relative;
   font-size: 0.9rem;
