@@ -22,16 +22,50 @@
           /> -->
           <div class="nav-brand">
             <span class="nav-title">HERCARE</span>
-            <span class="nav-tagline">Comprehensive Empowerment for Women</span>
+            <span
+              class="nav-tagline"
+              data-i18n="nav.tagline"
+              >Comprehensive Empowerment for Women</span
+            >
           </div>
         </div>
         <nav class="nav-right">
-          <a href="index.html#home" class="nav-link">Home</a>
-          <a href="index.html#about" class="nav-link">About Us</a>
+          <a
+            href="index.html#home"
+            class="nav-link"
+            data-i18n="nav.home"
+            >Home</a
+          >
+          <a
+            href="index.html#about"
+            class="nav-link"
+            data-i18n="nav.about"
+            >About Us</a
+          >
+          <div class="language-switcher">
+            <button
+              type="button"
+              class="lang-toggle"
+              data-lang="en"
+              onclick="setLanguage('en')"
+            >
+              EN
+            </button>
+            <span class="lang-separator">|</span>
+            <button
+              type="button"
+              class="lang-toggle"
+              data-lang="am"
+              onclick="setLanguage('am')"
+            >
+              አማ
+            </button>
+          </div>
           <button
             class="btn btn-gold nav-cta"
             type="button"
             onclick="window.location.href='support.html'"
+            data-i18n="nav.support"
           >
             Support Women
           </button>
@@ -47,8 +81,10 @@
       </div>
       <div class="hero-container reveal">
         <div class="hero-text">
-          <h1>Empowering Women. Building Stronger Futures.</h1>
-          <p>
+          <h1 data-i18n="home.heroTitle">
+            Empowering Women. Building Stronger Futures.
+          </h1>
+          <p data-i18n="home.heroText">
             Supporting women facing financial challenges through community
             support, financial assistance, and sustainable opportunity across
             Ethiopia.
@@ -58,6 +94,7 @@
               class="btn btn-pink"
               type="button"
               onclick="window.location.href='support.html'"
+              data-i18n="home.heroSupportBtn"
             >
               Support Women
             </button>
@@ -65,6 +102,7 @@
               class="btn btn-outline"
               type="button"
               onclick="scrollToSection('about')"
+              data-i18n="home.heroLearnMoreBtn"
             >
               Learn More
             </button>
@@ -72,12 +110,20 @@
         </div>
         <div class="hero-visual">
           <div class="hero-card glass-card">
-            <h2>HERCARE</h2>
-            <p>Comprehensive Empowerment for Women in Ethiopia.</p>
+            <h2 data-i18n="home.heroCardTitle">HERCARE</h2>
+            <p data-i18n="home.heroCardText">
+              Comprehensive Empowerment for Women in Ethiopia.
+            </p>
             <ul>
-              <li>Financial assistance pathways</li>
-              <li>Skills and education support</li>
-              <li>Community and mentorship networks</li>
+              <li data-i18n="home.heroCardItem1">
+                Financial assistance pathways
+              </li>
+              <li data-i18n="home.heroCardItem2">
+                Skills and education support
+              </li>
+              <li data-i18n="home.heroCardItem3">
+                Community and mentorship networks
+              </li>
             </ul>
           </div>
           <div class="hero-parallax-shape shape-pink"></div>
@@ -89,30 +135,32 @@
     <!-- Impact Counters -->
     <section class="impact-section reveal">
       <div class="section-inner">
-        <h2>Impact in Numbers</h2>
-        <p class="section-subtitle">
+        <h2 data-i18n="home.impactTitle">Impact in Numbers</h2>
+        <p class="section-subtitle" data-i18n="home.impactText">
           Real change made possible through collective support.
         </p>
         <div class="impact-grid">
           <div class="impact-card glass-card">
             <div class="impact-icon impact-icon-gold">👩‍👧</div>
-            <h3>Women Helped</h3>
+            <h3 data-i18n="home.impactWomenHelped">Women Helped</h3>
             <p class="impact-number" data-target="2134">0</p>
           </div>
           <div class="impact-card glass-card">
             <div class="impact-icon impact-icon-gold">💰</div>
-            <h3>Donations Raised</h3>
+            <h3 data-i18n="home.impactDonationsRaised">Donations Raised</h3>
             <p class="impact-number" data-target="48200">0</p>
-            <span class="impact-unit">ETB</span>
+            <span class="impact-unit" data-i18n="home.impactCurrency"
+              >ETB</span
+            >
           </div>
           <div class="impact-card glass-card">
             <div class="impact-icon impact-icon-gold">🏘️</div>
-            <h3>Communities Reached</h3>
+            <h3 data-i18n="home.impactCommunities">Communities Reached</h3>
             <p class="impact-number" data-target="37">0</p>
           </div>
           <div class="impact-card glass-card">
             <div class="impact-icon impact-icon-gold">📚</div>
-            <h3>Programs Created</h3>
+            <h3 data-i18n="home.impactPrograms">Programs Created</h3>
             <p class="impact-number" data-target="12">0</p>
           </div>
         </div>
@@ -122,8 +170,8 @@
     <!-- Story Image Slider -->
     <section class="stories-section reveal">
       <div class="section-inner">
-        <h2>Real Stories. Real Strength.</h2>
-        <p class="section-subtitle">
+        <h2 data-i18n="home.storiesTitle">Real Stories. Real Strength.</h2>
+        <p class="section-subtitle" data-i18n="home.storiesText">
           Women leading, learning, and lifting their communities.
         </p>
         <div class="story-slider-wrapper">
@@ -179,8 +227,8 @@
     <!-- Mission Section -->
     <section id="about" class="mission-section reveal">
       <div class="section-inner">
-        <h2>Our Mission</h2>
-        <p class="section-subtitle">
+        <h2 data-i18n="home.missionTitle">Our Mission</h2>
+        <p class="section-subtitle" data-i18n="home.missionText">
           Our mission is to support women experiencing financial hardship by
           connecting them with financial assistance, opportunities, and
           community support.
@@ -188,24 +236,24 @@
         <div class="mission-grid">
           <div class="mission-item glass-card">
             <div class="mission-icon floating-icon">🕊️</div>
-            <h3>Financial Stability</h3>
-            <p>
+            <h3 data-i18n="home.missionItem1Title">Financial Stability</h3>
+            <p data-i18n="home.missionItem1Text">
               Guiding women toward safe and dignified financial pathways,
               including support for urgent needs.
             </p>
           </div>
           <div class="mission-item glass-card">
             <div class="mission-icon floating-icon">🎓</div>
-            <h3>Education & Skills</h3>
-            <p>
+            <h3 data-i18n="home.missionItem2Title">Education &amp; Skills</h3>
+            <p data-i18n="home.missionItem2Text">
               Opening doors to education, training, and skills that help women
               build sustainable futures.
             </p>
           </div>
           <div class="mission-item glass-card">
             <div class="mission-icon floating-icon">🤝</div>
-            <h3>Community Support</h3>
-            <p>
+            <h3 data-i18n="home.missionItem3Title">Community Support</h3>
+            <p data-i18n="home.missionItem3Text">
               Creating supportive networks where women uplift one another and
               share opportunities.
             </p>
@@ -217,8 +265,8 @@
     <!-- About Us Page Content -->
     <section class="about-section reveal">
       <div class="section-inner">
-        <h2>About the Initiative</h2>
-        <p>
+        <h2 data-i18n="home.aboutTitle">About the Initiative</h2>
+        <p data-i18n="home.aboutText">
           HERCARE was created to support women facing financial hardship by
           providing financial assistance, opportunities, and empowerment through
           community support. The initiative focuses on women across Ethiopia,
@@ -226,40 +274,46 @@
           partnership.
         </p>
 
-        <h3>Our Goals</h3>
+        <h3 data-i18n="home.goalsTitle">Our Goals</h3>
         <div class="goals-grid">
           <div class="goal-card glass-card">
-            <h4>Help 5,000 women next year</h4>
-            <p>
+            <h4 data-i18n="home.goal1Title">Help 5,000 women next year</h4>
+            <p data-i18n="home.goal1Text">
               Expanding our reach so that more women can access support when
               they need it most.
             </p>
           </div>
           <div class="goal-card glass-card">
-            <h4>Provide financial assistance programs</h4>
-            <p>
+            <h4 data-i18n="home.goal2Title">
+              Provide financial assistance programs
+            </h4>
+            <p data-i18n="home.goal2Text">
               Designing responsible support programs that meet immediate needs
               and encourage long-term resilience.
             </p>
           </div>
           <div class="goal-card glass-card">
-            <h4>Support women’s education and skills training</h4>
-            <p>
+            <h4 data-i18n="home.goal3Title">
+              Support women’s education and skills training
+            </h4>
+            <p data-i18n="home.goal3Text">
               Partnering with local organizations to deliver skills, mentoring,
               and education.
             </p>
           </div>
           <div class="goal-card glass-card">
-            <h4>Build strong community support networks</h4>
-            <p>
+            <h4 data-i18n="home.goal4Title">
+              Build strong community support networks
+            </h4>
+            <p data-i18n="home.goal4Text">
               Connecting women with one another and with trusted community
               resources.
             </p>
           </div>
         </div>
 
-        <h3>Our Vision</h3>
-        <p class="vision-text">
+        <h3 data-i18n="home.visionTitle">Our Vision</h3>
+        <p class="vision-text" data-i18n="home.visionText">
           We envision a future where every woman has access to financial
           stability, opportunity, and the ability to live with dignity and
           independence.
@@ -270,8 +324,8 @@
     <!-- Support call-to-action (links to dedicated page) -->
     <section class="support-section reveal">
       <div class="section-inner">
-        <h2>Support Women in Need</h2>
-        <p class="section-subtitle">
+        <h2 data-i18n="home.supportCtaTitle">Support Women in Need</h2>
+        <p class="section-subtitle" data-i18n="home.supportCtaText">
           Your support helps provide financial assistance and opportunities for
           women who need it most. Visit our dedicated Support Women page to
           choose a donation amount and see secure payment options.
@@ -280,6 +334,7 @@
           class="btn btn-pink"
           type="button"
           onclick="window.location.href='support.html'"
+          data-i18n="home.supportCtaButton"
         >
           Go to Support Women Page
         </button>
@@ -291,18 +346,24 @@
       <div class="footer-inner">
         <div class="footer-brand">
           <span class="footer-title">HERCARE</span>
-          <span class="footer-tagline">Comprehensive Empowerment for Women</span>
+          <span
+            class="footer-tagline"
+            data-i18n="footer.tagline"
+            >Comprehensive Empowerment for Women</span
+          >
         </div>
         <nav class="footer-nav">
-          <a href="index.html#home">Home</a>
-          <a href="index.html#about">About Us</a>
-          <a href="support.html">Support Women</a>
+          <a href="index.html#home" data-i18n="footer.home">Home</a>
+          <a href="index.html#about" data-i18n="footer.about">About Us</a>
+          <a href="support.html" data-i18n="footer.support">Support Women</a>
         </nav>
         <p class="footer-copy">
-          &copy; <span id="yearSpan"></span> HERCARE – Women Support Initiative.
-          All rights reserved.
+          &copy; <span id="yearSpan"></span>
+          <span data-i18n="footer.copy"
+            >HERCARE – Women Support Initiative. All rights reserved.</span
+          >
         </p>
-        <p>Partnership with:- SWA</p>
+        <p data-i18n="footer.partnership">Partnership with:- SWA</p>
       </div>
     </footer>
 
